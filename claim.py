@@ -171,7 +171,7 @@ class Instagram:
     def main(self):
         os.system(clear)
         if clear == "cls":
-            ctypes.windll.kernel32.SetConsoleTitleW("Instagram Auto Claimer | Developed by @useragents on Github")
+            ctypes.windll.kernel32.SetConsoleTitleW("Instagram Auto Claimer | Developed by @maxmarkov99 on Github")
         print(Fore.LIGHTMAGENTA_EX + ascii_text)
         self.load_proxies()
         username = str(input(f"\n       {Fore.WHITE}[{Fore.LIGHTMAGENTA_EX}Console{Fore.WHITE}] Username: @"))
